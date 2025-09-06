@@ -1,3 +1,9 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 :root {
     --font: poppins, sans-serif;
 }
@@ -6,7 +12,6 @@
     display: flex;
     font-family: var(--font);
     position: sticky;
-    box-sizing: border-box;
     top: 0;
     background-color: chocolate;
 }
@@ -30,7 +35,7 @@ li a:hover {
     text-underline-offset: 1vh;
 }
 .logo img{
-    height: 13vh;
+    height: 11vh;
     top: 0;
 }
 .logo {
