@@ -62,9 +62,27 @@ li a:hover {
     #item1 p {
       color: #ccc;
       font-size: 20px;
-      margin: 10px 0 30px;
     }
-    #item1 .info {
+    .about{
+        width: auto;
+        margin: 50px 220px 0px 220px ;
+        border-radius: 7px 7px 7px 7px;
         display: flex;
-        justify-self: center;
+        flex-direction: row;
+        background-color: rgb(255, 255, 255);
+        font-size: 20px;
+    }
+    .about img {
+        height: 40vh;
+        width: 40vw;
+        border-radius: 7px 7px 7px 7px;
+    }
+    .about .span1{
+        color: skyblue;
+        font-weight: bold;
+        font-size: 30px;
+        font-family: var(--font);
+    }
+    .about .span2{
+        font-family: var(--font);
     }
