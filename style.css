@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 }
 
 :root {
@@ -89,6 +90,7 @@ li a:hover {
     }
     .back{
         background-color: black;
+        margin: 30px 0 0 0;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -99,12 +101,17 @@ li a:hover {
     }
     .back #theme {
         color: #ccc;
-    }
-    .back hr{
-        border-style: none;
-        background-color: #ccc;
-        height: 10vh;
+        font-size: 1.2rem;
+       
     }
     .back #last{
         color: #ccc;
+        font-size: 1.2rem;
+        margin: 5px 0 20px 0;
+    }
+    .bordering {
+        border-bottom: 1px solid #333;
+        padding-bottom: 15px;
+        color: #ccc;
+        width: 99vw;
     }
